@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.contact{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    border-radius: 18px;
+    margin-left: 600px;
+    padding-left: 50px;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.icon,.mediaicon{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+.inputbox{
+    width: 400px;
+    border: 1px solid #2e2e2ebe;
+    border-radius: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#send{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 40px;
+    height: 39px;
+    margin: 20px 80px;
+    background-color: rgba(127, 221, 255, 0.724);
+    color: #fff;
+}

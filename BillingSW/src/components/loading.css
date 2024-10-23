@@ -1,0 +1,62 @@
+*{
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+video{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.main,h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #602da9;
+    font-size: 35px;
+    background-color: #fbf6f5;
+    margin-top: 0%;
+}
+span{
+    color: #ff022c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes typingH3 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 40%;
+    }
+  }
+  
+  
+  /* Blinking effect for the cursor */
+  @keyframes blink {
+    0% {
+      border-right-color: rgba(0, 0, 0, 0);
+    }
+    50% {
+      border-right-color: black;
+    }
+    100% {
+      border-right-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  .main h2 {
+    font-size: 35px;
+    color: #602da9;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black; /* To show blinking cursor */
+    width: 0; /* Start hidden */
+    animation: typingH3 4s steps(39, end) forwards, blink 0.75s step-end infinite;
+  }

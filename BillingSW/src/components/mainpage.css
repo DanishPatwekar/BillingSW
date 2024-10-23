@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.mainpage{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('background.png');
+    background-size: 100% 100%; /* Ensures the image covers the entire navbar */
+    background-position: center; 
+    background-repeat: no-repeat;
+}
