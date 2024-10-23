@@ -1,0 +1,19 @@
+pair 1{
+background color:-#fffffe
+text color:-#602da9
+}
+pair 2{
+    background color:-#2d1a1b
+    text color:-#ecb95a
+}
+
+for registration component:-
+1)install 2 dependancy (formik,Yup)
+
+formik used for form input tag check
+yup used for check validate data (it gives regex)
+
+
+for routing one page to other page:-
+1st install react-router-don(nmp i react-router-dom)
+2nd </Router>in this tag wrap all code
