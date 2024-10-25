@@ -134,3 +134,10 @@ label{
     height: 20px;
     margin-top: 10px;
 }
+
+.showerror{
+    color: red;
+    font-size: 16px;
+    margin: 0;
+    pad: 0;
+}
